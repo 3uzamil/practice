@@ -1,11 +1,11 @@
 // This is a simple age check program
 
-let age = 20;
-if (age >= 18) {
-    console.log("You are an adult.");
-} else {
-    console.log("You are a minor.");
-};
+// let age = 20;
+// if (age >= 18) {
+//     console.log("You are an adult.");
+// } else {
+//     console.log("You are a minor.");
+// };
 
 // This is a simple grade check program
 
@@ -49,8 +49,16 @@ let marks = 85;
 
 // contine statement example
 
-let count = 1;
-for (let i=1;i<=10;i++) {
-    if (i === 5) continue; 
-    console.log("Count " + i);
-}
+// let count = 1;
+// for (let i=1;i<=10;i++) {
+//     if (i === 5) continue; 
+//     console.log("Count " + i);
+// }
+
+// function example
+
+function greet() {
+    console.log("Hello!");
+};
+
+greet(); // Calling the function to execute its code

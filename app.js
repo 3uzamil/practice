@@ -57,8 +57,8 @@ let marks = 85;
 
 // function example
 
-function greet() {
-    console.log("Hello!");
-};
+// function greet() {
+//     console.log("Hello!");
+// };
 
-greet(); // Calling the function to execute its code
+// greet(); // Calling the function to execute its code

@@ -1,0 +1,34 @@
+:root{
+    --primaryColor: #242424;
+    --secondaryColor: #545454;
+    --warningColor: #fcfc62;
+    --errorColor: #a4031f;
+    --backgroundColor: #34974d;
+}
+*{
+    font-family: "Poppins";
+}
+#heading{
+    text-align: center;
+    cursor: default;
+    color: var(--primaryColor);
+}
+#subHeading{
+    cursor: default;
+    text-align: center;
+    line-height: 0.2;
+    color: var(--secondaryColor);
+}
+hr{
+    width: 30%;
+    height: 2px;
+    background-color: var(--secondaryColor);
+}
+article{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
